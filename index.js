@@ -12,7 +12,7 @@ for (let i = 0; i < logo.length; i++) {
     dxc.innerHTML += ` <section class="_">
            
         <p>${numbers[j]}</p>
-    <img src="src/${logo[i]}.png">
+    <img src="${logo[i]}.png">
         <i class="fa fa " style="color:grey;font-size:0.5rem;">${temp_c + 1}</i>
         </section>`;
     temp_c++;
@@ -44,7 +44,7 @@ const render_User = () => {
 
   for (let i = 0; i < data.length; i++) {
     u_card[i].innerHTML = ` <p>${cards[data[i]][1]}</p>
-    <img src="src/${cards[data[i]][0]}.png">
+    <img src="${cards[data[i]][0]}.png">
     `;
   }
 
@@ -68,7 +68,7 @@ const render_Comp = () => {
   for (let i = 0; i < c_card.length; i++) {
     c_card[i].innerHTML = `
   <p>${cards[data[i]][1]}</p>
-    <img src="src/${cards[data[i]][0]}.png">
+    <img src="${cards[data[i]][0]}.png">
   `;
   }
 
