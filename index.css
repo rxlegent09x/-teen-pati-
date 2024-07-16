@@ -140,17 +140,16 @@ justify-content: center;
 
 @media (max-width: 800px) {
 
-    *{
-        color:#6108b4;
-    }
+   
 
     ._{
         width: 6.2rem;
         height: 13rem;
+        color: orangered;
     }
 
     ._ img{
-        height: 6.1rem;
+        height: 5.5rem;
     
     }
     
