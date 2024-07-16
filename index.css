@@ -139,7 +139,10 @@ justify-content: center;
 }
 
 @media (max-width: 800px) {
-   
+
+    body{
+        background:red;
+    }
 
     ._{
         width: 6.2rem;
